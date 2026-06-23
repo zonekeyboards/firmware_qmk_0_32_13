@@ -47,10 +47,10 @@ To compile the firmware and initialize the handedness settings in the EEPROM for
 
 *   **Left Side:**
     ```bash
-    qmk compile -c -kb lily58/rev1 -km zonekeyboards_ATMEGA32U4 -e EXTRAFLAGS="-DINIT_EE_HANDS_LEFT"
+    qmk compile -c -kb crkbd/rev1 -km zonekeyboards_ATMEGA32U4 -e EXTRAFLAGS="-DINIT_EE_HANDS_LEFT"
     ```
 
 *   **Right Side:**
     ```bash
-    qmk compile -c -kb lily58/rev1 -km zonekeyboards_ATMEGA32U4 -e EXTRAFLAGS="-DINIT_EE_HANDS_RIGHT"
+    qmk compile -c -kb crkbd/rev1 -km zonekeyboards_ATMEGA32U4 -e EXTRAFLAGS="-DINIT_EE_HANDS_RIGHT"
     ```
